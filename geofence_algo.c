@@ -22,7 +22,7 @@ isLeft( Point P0, Point P1, Point P2 )
 //      Input:   P = a point,
 //               V[] = vertex points of a polygon V[n+1] with V[n]=V[0]
 //      Return:  0 = outside, 1 = inside
-// This code is patterned after [Franklin, 2000]
+// This code is patterned after [Franklin, 2000] 
 int
 cn_PnPoly( Point P, Point* V, int n )
 {
