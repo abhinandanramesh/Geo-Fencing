@@ -1,10 +1,17 @@
 Geo-Fencing
 ===========
 
-Creates a Geo-Fence around the specified area using GPS technology.
+This project was created during a Nokia PESIT hackathon which creates a Geo-Fence along with Harish.
 
-I have used the Ray Caster and Winding computational methods to implement the geo-fence using C.
+The geo-fence is created using the Google MAPS API. The co-ordinates of the geo-fence are defined using a GUI based interface by dragging the corners of the polygon. The javascript files required to interact with the google maps are included in the Google-Maps-API folder.
 
-The server.php files needs to be hosted on a server which enables the GPS co-ordinate values to be updated on a personal home page.
+These co-ordinates are fetched and stored in a personal homepage. Use the php files in the server.php folder to host the website.
 
-Create a Google Map API account which 
+Finally, we used the Ray-Caster and Winding computational methods to compute whether the current location co-ordinates are within the specified geo-fence.
+____________________________________________________________________________________________________________________________
+
+Then the project was extended to built a hand held machine using the LPC1788, an ARM Cortex-M3 based microcontroller and SIM908 GPS module.
+
+The geo-fence main.c file contains the implementation of Ray-Caster and Winding algorithms along with the SIM908 module interface with LPC1788. The C file works perfectly fine with the specified controller and SIM908 module.
+
+However, care must be taken to see that the latitude-longitude format returned by the Google MAPS API must be in sync with the format recorded by the GPS module being used.
