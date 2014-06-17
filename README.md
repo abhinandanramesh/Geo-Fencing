@@ -15,3 +15,5 @@ Then the project was extended to built a hand held machine using the LPC1788, an
 The geo-fence main.c file contains the implementation of Ray-Caster and Winding algorithms along with the SIM908 module interface with LPC1788. The C file works perfectly fine with the specified controller and SIM908 module.
 
 However, care must be taken to see that the latitude-longitude format returned by the Google MAPS API must be in sync with the format recorded by the GPS module being used.
+
+Adding geofence_algo.c file, if anyone wants to specifically work on the algorithmic aspect of the geo-fence.
