@@ -5,7 +5,7 @@ This project was created during a Nokia PESIT hackathon which creates a Geo-Fenc
 
 The geo-fence is created using the Google MAPS API. The co-ordinates of the geo-fence are defined using a GUI based interface by dragging the corners of the polygon. The javascript files required to interact with the google maps are included in the Google-Maps-API folder.
 
-These co-ordinates are fetched and stored in a personal homepage. Use the php files in the server.php folder to host the website.
+These co-ordinates are fetched and stored in a personal homepage. Use the forms in the server.php folder to host the website.
 
 Finally, we used the Ray-Caster and Winding computational methods to compute whether the current location co-ordinates are within the specified geo-fence.
 ____________________________________________________________________________________________________________________________
