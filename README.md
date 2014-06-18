@@ -1,7 +1,7 @@
 Geo-Fencing
 ===========
 
-This project was created during a Nokia PESIT hackathon which creates a Geo-Fence along with Harish.
+This project was created during a Nokia PESIT hackathon which creates a Geo-Fence. The project was developed along with Harish.
 
 The geo-fence is created using the Google MAPS API. The co-ordinates of the geo-fence are defined using a GUI based interface by dragging the corners of the polygon. The javascript files required to interact with the google maps are included in the Google-Maps-API folder.
 
